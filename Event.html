@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Document</title>z
         <!-- ----------fontawesom-------------- -->
     <script src="https://kit.fontawesome.com/e2f3c2ee96.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="/css/media_query.css">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="icon" href="img/favicon.ico">
 
@@ -20,78 +21,80 @@
 
 
     <section class="nav1">
-        <nav>
-            <div class="nav-bar">
-                <i class='bx bx-menu sidebarOpen'></i>
-                <span class="logo navLogo"><a href="#">Upsurge</a></span>
-    
-                <div class="menu">
-                    <div class="logo-toggle">
-                        <span class="logo"><a href="#">Upsurge</a></span>
-                        <i class='bx bx-x siderbarClose'></i>
-                    </div>
-    
-                    <ul class="nav-links">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="Event.html">Event</a></li>
-                        <li><a href="#">Hackathon</a></li>
-                        <li><a href="#schedule">Schedule</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
+      <nav>
+        <div class="nav-bar">
+          <i class='bx bx-menu sidebarOpen'></i>
+          <span class="logo navLogo"><img src="img/1.png" class="img-fluid" alt="..."></span>
+  
+          <div class="menu">
+            <div class="logo-toggle">
+              <span class="logo"><a href="#">urge</a></span>
+              <i class='bx bx-x siderbarClose'></i>
             </div>
-        </nav>
-    </section>
-    <main>
-        <div class="main-body">
-          <div class="abc">
-            <div class="event-img"></div>
-            <div class="all-button">
-              <a href="">
-                <div class="register">
-                  <p>Register</p>
-                </div>
-              </a>
-    
-              <!-- <a href="">
-                          <div class="prob-state">
-                              <p>Problem Statement</p>
-                          </div>
-                  </a> -->
-    
-              <a href="">
-                <div class="submit">
-                  <p>Submit</p>
-                </div>
-              </a>
-            </div>
-          </div>
-    
-          <div class="space"></div>
-    
-          <div class="details">
-            <div class="event-name">
-              <p style="font-size: 350%">Hackathon</p>
-            </div>
-    
-            <div class="nav-bar">
-              <button name="about" onclick="aboutText()" value="About">
-                About
-              </button>
-              <button name="timeline" onclick="timelineText()">Timeline</button>
-              <button name="judge" onclick="judgeText()">Judge</button>
-              <button name="contactus" onclick="contactText()">Contact</button>
-            </div>
-    
-            <div class="contain" id="demo">
-              <p> Magic Pen is an individual article writing competition, from the above topics choose any one topic, write an article on it and submit.
-                  The Competition is open for all the students currently pursuing their U.G.<br>All the participants submit their article at google form linked below.<br>Link: <br>The Article needs to be submitted in doc.x form.
-                  Whole article should be in 500 words (i.e 1 page with font=Time New Roman, Font size 12)
-                  File Name Format:<br>MagicPen_yourname_collegeName. </p>
-            </div>
+  
+            <ul class="nav-links">
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="hackthon.html">Hackathon</a></li>
+              <li><a href="#schedule">Schedule</a></li>
+              <li><a href="event.html">Event</a></li>
+              <li><a href="#foot1">Contact</a></li>
+            </ul>
           </div>
         </div>
-      </main>
+      </nav>
+    </section>
+    <main>
+      <div class="main-body">
+        <div class="abc">
+          <div class="event-img"></div>
+          <div class="all-button">
+            <a href="">
+              <div class="register">
+                <p>Register</p>
+              </div>
+            </a>
+  
+            <!-- <a href="">
+                        <div class="prob-state">
+                            <p>Problem Statement</p>
+                        </div>
+                </a> -->
+  
+            <a href="">
+              <div class="submit">
+                <p>Submit</p>
+              </div>
+            </a>
+          </div>
+        </div>
+  
+        
+  
+        <div class="details">
+          <div class="event-name">
+            <p style="font-size: 50px">Hackathon</p>
+          </div>
+  
+          <div class="nav-bar">
+            <button name="about" onmousemove="aboutText()" value="About">
+              About
+            </button>
+            <button name="timeline" onmousemove="timelineText()">Timeline</button>
+            <button name="judge" onmousemove="judgeText()">Judge</button>
+            <button name="contactus" onmousemove="contactText()">Contact</button>
+          </div>
+  
+          <div class="contain" id="demo">
+            <p> Magic Pen is an individual article writing competition, from the above topics choose any one topic, write an article on it and submit.
+                The Competition is open for all the students currently pursuing their U.G.<br>All the participants submit their article at google form linked below.<br>Link: <br>The Article needs to be submitted in doc.x form.
+                Whole article should be in 500 words (i.e 1 page with font=Time New Roman, Font size 12)
+                File Name Format:<br>MagicPen_yourname_collegeName. </p>
+          </div>
+        </div>
+      </div>
+  
+      
+    </main>
       <script src="/javascript/js.js"></script>
 </body>
 </html>
