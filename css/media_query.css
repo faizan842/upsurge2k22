@@ -67,7 +67,7 @@
 
 
 
-
+/*-------nav-bar----------*/
 @media (max-width: 790px) {
     nav .nav-bar .sidebarOpen {
         display: block;
@@ -110,7 +110,7 @@
 
     .nav-bar .nav-links {
         flex-direction: column;
-        padding-top: 30px;
+        /* padding-top: 30px; */
     }
 
     .nav-links li a {
@@ -143,8 +143,7 @@
         display: none;
     }
     .nav-bar img{
-        margin-top: 60%;
-        margin-right: 8%;
+        justify-content: center;
     }
 }
 /*chetan event*/
@@ -237,6 +236,7 @@ height: 90vh;
     }
     .nav-bar button{
         width: 30vw;
+        font-size: 1.7rem;
     }
     
 }
@@ -263,10 +263,12 @@ height: 90vh;
     }
     .person2{
         background-size: 20%;
+        margin: 5%;
     }
     .person2-details{
         padding: 0;
         text-align: center;
+        margin: 5%;
     }
 }
 /*chetan event end*/
