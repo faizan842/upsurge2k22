@@ -2,117 +2,295 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Event</title>z
-        <!-- ----------fontawesom-------------- -->
-    <script src="https://kit.fontawesome.com/e2f3c2ee96.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="/css/media_query.css">
-    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="icon" href="img/favicon.ico">
-    <!--footer-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upsurge-HOME</title>
+
+  <!-- ------------------------------------bootstarp---------------------------- -->
+  
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  
+
+<!-- ----------fontawesom-------------- -->
+  <script src="https://kit.fontawesome.com/e2f3c2ee96.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="/css/media_query.css">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="icon" href="img/ups.ico">
+
+  <!--footer-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-    
+
+ <!-- -------------------------font--------------------- -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+ 
+
 </head>
 
 <body>
-    <!-- -------------------navbar--------------- -->
+  <!-- -------------------navbar--------------- -->
 
 
-    <section class="nav1">
-      <nav>
-        <div class="nav-bar">
-          <i class='bx bx-menu sidebarOpen'></i>
-          <span class="logo navLogo"><img src="img/1.png" class="img-fluid" alt="..."></span>
-  
-          <div class="menu">
-            <div class="logo-toggle">
-              <span class="logo"><a href="#">urge</a></span>
-              <i class='bx bx-x siderbarClose'></i>
-            </div>
-  
-            <ul class="nav-links">
-              <li><a href="index.html">HOME</a></li>
-              <li><a href="hackthon.html">Hackathon</a></li>
-              <li><a href="#schedule">Schedule</a></li>
-              <li><a href="index.html#ev">Event</a></li>
-              <li><a href="#foot1">Contact</a></li>
-            </ul>
+  <section class="nav1">
+    <nav>
+      <div class="nav-bar">
+        <i class='bx bx-menu sidebarOpen'></i>
+        <span class="logo navLogo"><img src="img/1.png" class="img-fluid" alt="..."></span>
+
+        <div class="menu">
+          <div class="logo-toggle">
+            <span class="logo"><a href="#"><img src="img/1.png" class="img-fluid" alt="..."></a></span>
+            <i class='bx bx-x siderbarClose'></i>
           </div>
-        </div>
-      </nav>
-    </section>
-    <main>
-      <div class="main-body">
-        <div class="abc">
-          <div class="event-img"></div>
-          <div class="all-button">
-            <a href="">
-              <div class="register">
-                <p>Register</p>
-              </div>
-            </a>
-  
-            <!-- <a href="">
-                        <div class="prob-state">
-                            <p>Problem Statement</p>
-                        </div>
-                </a> -->
-  
-            <a href="">
-              <div class="submit">
-                <p>Submit</p>
-              </div>
-            </a>
-          </div>
-        </div>
-  
-        
-  
-        <div class="details">
-          <div class="event-name">
-            <p style="font-size: 50px">Magic Pen</p>
-          </div>
-  
-          <div class="nav-bar">
-            <button name="about" onmousemove="aboutText()" value="About">
-              About
-            </button>
-            <button name="timeline" onmousemove="timelineText()">Timeline</button>
-            <button name="judge" onmousemove="judgeText()">Judge</button>
-            <button name="contactus" onmousemove="contactText()">Contact</button>
-          </div>
-  
-          <div class="contain" id="demo">
-            <p> Magic Pen is an individual article writing competition, from the above topics choose any one topic, write an article on it and submit.
-                The Competition is open for all the students currently pursuing their U.G.<br>All the participants submit their article at google form linked below.<br>Link: <br>The Article needs to be submitted in doc.x form.
-                Whole article should be in 500 words (i.e 1 page with font=Time New Roman, Font size 12)
-                File Name Format:<br>MagicPen_yourname_collegeName. </p>
-          </div>
+
+          <ul class="nav-links">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="hackthon.html">Hackathon</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#ev">Event</a></li>
+            <li><a href="#foot1">Contact</a></li>
+          </ul>
         </div>
       </div>
+    </nav>
+  </section>
+
+  <!-- ---------------------heading----------------- -->
+
+  <section class="heading">
+    <div class="upsurge">
+      <h>UPSURGE 2K22</h>
+      <br>
+      <p>
+        25TH-27TH AUGUST
+      </p>
+    </div>
+    <div class="countdown">
+      <h1 id="headline">Countdown to Upsurge</h1>
+      <div id="countdown">
+        <ul>
+          <li><span id="days"></span>days</li>
+          <li><span id="hours"></span>Hours</li>
+          <li><span id="minutes"></span>Minutes</li>
+          <li><span id="seconds"></span>Seconds</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- -----------------events--------------------------- -->
+  <section class="event1">
+    <div id="ev" class="event">
+      <h>Events</h>
+    </div>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active"><a href="event.html"><img src="img/img3.jpg" class="d-block w-100" alt="..."></a>
+
+        </div>
+        <div class="carousel-item">
+          <img src="img/img2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/img1.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- -----------------------------------------------shedule_msg_etc------------------------- -->
+
+  <section class="msg">
+    <div class="schedule" id="schedule">
+      <h>Schedule</h>
+      <div class="event-container">
+        <h3 class="year">Upsurge</h3>
+
+        <div class="event">
+          <div class="event-left">
+            <div class="event-date">
+              <div class="date">8</div>
+              <div class="month">Nov</div>
+            </div>
+          </div>
+
+          <div class="event-right">
+            <h3 class="event-title">Some Title Here</h3>
+
+            <div class="event-description">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus,
+              ratione.
+            </div>
+
+            <div class="event-timing">
+              <img src="images/time.png" alt="" /> 10:00 am
+            </div>
+          </div>
+        </div>
+
+        <div class="event">
+          <div class="event-left">
+            <div class="event-date">
+              <div class="date">22</div>
+              <div class="month">Dec</div>
+            </div>
+          </div>
+
+          <div class="event-right">
+            <h3 class="event-title">Some Title Here</h3>
+
+            <div class="event-description">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus,
+              ratione.
+            </div>
+
+            <div class="event-timing">
+              <img src="images/time.png" alt="" /> 10:45 am
+            </div>
+          </div>
+
+        </div>
+        <div class="event">
+          <div class="event-left">
+            <div class="event-date">
+              <div class="date">22</div>
+              <div class="month">Dec</div>
+            </div>
+          </div>
+
+          <div class="event-right">
+            <h3 class="event-title">Some Title Here</h3>
+
+            <div class="event-description">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus,
+              ratione.
+            </div>
+
+            <div class="event-timing">
+              <img src="images/time.png" alt="" /> 10:45 am
+            </div>
+          </div>
+
+        </div>
+        <div class="event">
+          <div class="event-left">
+            <div class="event-date">
+              <div class="date">22</div>
+              <div class="month">Dec</div>
+            </div>
+          </div>
+
+          <div class="event-right">
+            <h3 class="event-title">Some Title Here</h3>
+
+            <div class="event-description">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus,
+              ratione.
+            </div>
+
+            <div class="event-timing">
+              <img src="images/time.png" alt="" /> 10:45 am
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="teachers_messages">
+        <h>Teachers Messages</h>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, odit consectetur inventore molestiae id libero
+          itaque soluta dicta porro aspernatur. Esse minima ratione delectus laborum, dicta rem maiores totam, commodi
+          reiciendis officiis odit optio?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae eligendi odit cumque modi corporis nemo sit, eaque tempore deleniti? Quo, consequuntur asperiores ipsum adipisci nihil velit ad facere doloremque deserunt at explicabo ea sapiente quos, illum eos quam esse, eveniet minima maiores corporis nostrum libero fugit minus. Necessitatibus, asperiores maxime.</p>
+      </div>
+
+      <div class="about">
+        <h>About</h>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, odit consectetur inventore molestiae id libero
+          itaque soluta dicta porro aspernatur. Esse minima ratione delectus laborum, dicta rem maiores totam, commodi
+          reiciendis officiis odit optio?</p>
+      </div>
+
+      <div class="cse">
+        <h>Department of Computer Science and Engineering</h>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, odit consectetur inventore molestiae id libero
+          itaque soluta dicta porro aspernatur. Esse minima ratione delectus laborum, dicta rem maiores totam, commodi
+          reiciendis officiis odit optio?</p>
+      </div>
+  </section>
+  <!-- -----------------------team-------------------------------- -->
+  <section class="team">
+    <h1>OUR TEAM</h1>
+    <div class="container">
+      <div class="profile">
+        <img src="/img/img1.jpg" class="profile-img">
+        <h5>Creative Director</h5>
+      </div>
+      <div class="profile">
+        <img src="/img/img2.jpg" class="profile-img">
+        <h5>Managing Partner</h5>
+      </div>
+      <div class="profile">
+        <img src="/img/img3.jpg" class="profile-img">
+        <h5>Project Manager</h5>
+      </div>
+      <div class="profile">
+        <img src="/img/img3.jpg" class="profile-img">
+        <h5>Project Manager</h5>
+      </div>
+      <div class="profile">
+        <img src="/img/img3.jpg" class="profile-img">
+        <h5>Project Manager</h5>
+      </div>
+      <div class="profile">
+        <img src="/img/img3.jpg" class="profile-img">
+        <h5>Project Manager</h5>
+      </div>
+      <div class="profile">
+        <img src="/img/img2.jpg" class="profile-img">
+        <h5>Creative Director</h5>
+      </div>
+
+      </div>
+  </section>
   
-      
-    </main>
-    <div class="footer-basic">
-      <footer>
-          <div id="foot1" class="social">
-            <a href="https://instagram.com/d?igshid=YmMyMTA2M2Y="><i class="icon ion-social-instagram"></i></a>
-            <a href="https://www.linkedin.com/company/yccecosmos/"><i class="icon ion-social-linkedin"></i></a>
-  
-                </i></a></div>
-          <ul class="list-inline">
-              <li class="list-inline-item"><a href="index.html">Home</a></li>
-              <li class="list-inline-item"><a href="hackthon.html">SMACKATHON</a></li>
-              <li class="list-inline-item"><a href="##ev">EVENTS</a></li>
-              <li class="list-inline-item"><a href="#">JOIN US</a></li>
-          </ul>
-          <p class="copyright">Design and Develope by Technical Team C.O.S.M.O.S</p>
-      </footer>
-  </div>
-      <script src="/javascript/js.js"></script>
+
+  <div class="footer-basic">
+    <footer>
+        <div id="foot1" class="social">
+          <a href="https://instagram.com/d?igshid=YmMyMTA2M2Y="><i class="icon ion-social-instagram"></i></a>
+          <a href="https://www.linkedin.com/company/yccecosmos/"><i class="icon ion-social-linkedin"></i></a>
+
+              </i></a></div>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="index.html">Home</a></li>
+            <li class="list-inline-item"><a href="hackthon.html">SMACKATHON</a></li>
+            <li class="list-inline-item"><a href="##ev">EVENTS</a></li>
+            <li class="list-inline-item"><a href="#">JOIN US</a></li>
+        </ul>
+        <p class="copyright">Design and Develope by Technical Team C.O.S.M.O.S</p>
+    </footer>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+  <script src="javascript/js.js"></script>
+
+
 </body>
+
 </html>
