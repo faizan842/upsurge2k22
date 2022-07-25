@@ -26,7 +26,7 @@ body {
   background-repeat: repeat-y;
 }
 html{
-  font-size: 62.5%;
+  font-size: 0.890rem;
   overflow-x: hidden;
   scroll-padding-top: 7rem;
   scroll-behavior: smooth;
@@ -99,11 +99,10 @@ nav .nav-bar .sidebarOpen {
 
 .nav-links li a {
   position: relative;
-  font-size: 1.0625rem;
+  font-size: 1.5rem;
   font-weight: 400;
   color: white;
   text-decoration: none;
-  padding: 0.625rem;
 }
 
 .nav-links li a::before {
@@ -160,6 +159,8 @@ nav .nav-bar .sidebarOpen {
   margin: 0 auto;
   text-align: center;
   margin-top: 40%;
+  padding: 0.28rem;
+  
 }
 
 h1 {
@@ -193,7 +194,7 @@ li span {
 }
 
 .event-container h3.year {
-  font-size: 40px;
+  font-size: 3rem;
   text-align: center;
   border-bottom: 1px solid #b1b1b1;
 }
@@ -242,7 +243,7 @@ li span {
 }
 
 .event .event-right .event-timing {
-  background: #fff8ba;
+  background: #222222;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -263,12 +264,13 @@ li span {
 .event {
   color: white;
   text-align: center;
-  font-size: 50%;
-  margin-top: 18%;
+  font-size: 1.8rem;
+  margin-top: 10%;
   font-family: 'Cinzel', serif;
 }
 .event h{
-  font-size: 650%;
+  font-size: 5.27rem;
+  margin: 10%;
 }
 
 .main_event {
@@ -333,17 +335,16 @@ li span {
 .teachers_messages {
   color: white;
   text-align: center;
-  font-size: 100%;
+  font-size: 5rem;
   margin-top: 10%;
   font-family: 'Cinzel', serif;
 }
 
 .teachers_messages p {
-  font-size: 45%;
+  font-size: 1.625rem;
   text-align: left;
-  margin-left: 20%;
-  margin-top: 2%;
-  margin-right: 20%;
+  text-align: center;
+  padding: 10%;
 }
 
 .about {
@@ -355,31 +356,29 @@ li span {
 }
 
 .about p {
-  font-size: 45%;
+  font-size: 1.625rem;
   text-align: left;
-  margin-left: 20%;
-  margin-top: 2%;
-  margin-right: 20%;
+  text-align: center;
+  padding: 10%;
 }
 
 .cse {
   color: white;
   text-align: center;
-  font-size: 100%;
+  font-size: 3.5rem;
   margin-top: 10%;
   font-family: 'Cinzel', serif;
 }
 
 .cse p {
-  font-size: 45%;
+  font-size: 1.625rem;
   text-align: left;
-  margin-left: 20%;
-  margin-top: 3%;
-  margin-right: 20%;
+  text-align: center;
+  padding: 10%;
 }
 
 .container {
-  margin: 20px 40px;
+  /* margin: 20px 40px; */
   color: white;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)) ;
@@ -405,7 +404,7 @@ li span {
 }
 
 .user-name {
-  margin-top: 30px;
+  margin-top: 10%;
   font-size: 35px;
 }
 
@@ -423,10 +422,17 @@ li span {
 }
 
 .team {
-  margin: 5%;
-  margin-left: 0px;
+  /* margin: %; */
+  /* margin-left: 0px; */
 }
 
+.team h1{
+ font-size: 4rem;
+ text-align: center;
+ color: #ffffff;
+ margin-bottom: 10%;
+ font-family: 'Cinzel', serif;
+}
 
 .ico {
   color: white;
@@ -453,7 +459,7 @@ li span {
 /*Fotter*/
 
 .footer-basic {
-  padding:40px 0;
+  padding:1.25rem 0px;
   background-color:#3d3d3d;
   color:#ffffff;
 }
@@ -515,16 +521,15 @@ li span {
 
 
 
-
 /*Chetan Event Page*/
 
   
 main{
   display: flex;
   flex-direction: column;
-  margin: 40px 0px 0px 0px;
+  /* margin: 40px 0px 0px 0px; */
   justify-content: space-between;
-  height: 100vh;
+
 }
 
 .main-body{
@@ -540,7 +545,7 @@ p{
 
 .abc{
   /* height: calc(100% - 48px - 11%); */
-  height: 90vh;
+  /* height: 90vh; */
   width: 20vw;
   display: flex;
   flex-direction: column;
@@ -567,13 +572,14 @@ p{
   justify-content: center;
   display: flex;
   flex-direction: column;
-  height: 220px;
+  height: 160px;
   width: 300px;
   align-items: center;
-  gap: 10% 0;
+  gap: 20% 0;
 }
 .all-button a{
   width: 75%;
+  margin: 2%;
 }
 a{
   text-decoration: none;
@@ -618,6 +624,9 @@ a{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.prob-state{
+  font-size: 1.6rem;
 }
 .space{
   width: 2%;
@@ -665,8 +674,11 @@ a{
   /* background-color: rgb(216, 216, 30); */
 }
 .contain p{
-  font-size: 15px;
-  padding: 1%;
+  font-size: 1.5rem;
+  padding: 5%;
+}
+main{
+  background-color: #32151f3f;
 }
 
 .register p{
@@ -685,7 +697,7 @@ a{
   padding: 0% 5%;
   border: 2px solid black;
   background-color: rgba(153, 238, 227, 0.911);
-  font-size: 100%;
+  font-size: 2rem;
   /* background-color: rgb(21, 243, 206); */
 }
 .first{
@@ -783,10 +795,10 @@ a{
 @media (max-width: 678px){
 
   .countdown{
-    font-size: 86%;
+    font-size: 1rem;
   }
   .schedule{
-    font-size: 2rem;
+    font-size: 5rem;
   }
   .container {
     margin: 20px 9px;
@@ -796,8 +808,8 @@ a{
     justify-content: center;
   }
   .container h5{
-    font-size: 10px;
-    margin: 1%;
+    font-size: 1.23rem;
+    margin-top: 10%;
   }
   .profile{
     text-align: center;
