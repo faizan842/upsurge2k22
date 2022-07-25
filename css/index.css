@@ -26,7 +26,7 @@ body {
   background-repeat: repeat-y;
 }
 html{
-  font-size: 0.890rem;
+  font-size: 62%;
   overflow-x: hidden;
   scroll-padding-top: 7rem;
   scroll-behavior: smooth;
@@ -99,10 +99,11 @@ nav .nav-bar .sidebarOpen {
 
 .nav-links li a {
   position: relative;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 400;
   color: white;
   text-decoration: none;
+  font-family: 'Cinzel', serif;
 }
 
 .nav-links li a::before {
@@ -135,7 +136,7 @@ nav .nav-bar .sidebarOpen {
 /*Upsurge Title*/
 
 .upsurge {
-  font-size: 500%;
+  font-size: 8.5rem;
   margin-top: 18%;
   margin-left: 6%;
   color: white;
@@ -158,8 +159,9 @@ nav .nav-bar .sidebarOpen {
   color: rgb(255, 255, 255);
   margin: 0 auto;
   text-align: center;
-  margin-top: 40%;
-  padding: 0.28rem;
+  margin-top: 14%;
+  /* padding: 0.28rem; */
+  font-family: 'Cinzel', serif;
   
 }
 
@@ -344,14 +346,15 @@ li span {
   font-size: 1.625rem;
   text-align: left;
   text-align: center;
-  padding: 10%;
+  padding: 4%;
+  font-family: 'EB Garamond', serif;
 }
 
 .about {
   color: white;
   text-align: center;
   font-size: 100%;
-  margin-top: 10%;
+  margin-top: 5%;
   font-family: 'Cinzel', serif;
 }
 
@@ -359,14 +362,15 @@ li span {
   font-size: 1.625rem;
   text-align: left;
   text-align: center;
-  padding: 10%;
+  padding: 5%;
+  font-family: 'EB Garamond', serif;
 }
 
 .cse {
   color: white;
   text-align: center;
   font-size: 3.5rem;
-  margin-top: 10%;
+  margin-top: 5%;
   font-family: 'Cinzel', serif;
 }
 
@@ -374,7 +378,8 @@ li span {
   font-size: 1.625rem;
   text-align: left;
   text-align: center;
-  padding: 10%;
+  padding: 5%;
+  font-family: 'EB Garamond', serif;
 }
 
 .container {
@@ -584,6 +589,7 @@ p{
 a{
   text-decoration: none;
   color: rgb(255, 254, 254);
+    font-family: 'Cinzel', serif;
 }
 
 .register{
@@ -598,6 +604,7 @@ a{
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Cinzel', serif;
 }
 .prob-state{
   /* padding: 4%; */
@@ -611,6 +618,7 @@ a{
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Cinzel', serif;
 }
 .submit{
   /* padding: 4%; */
@@ -624,6 +632,7 @@ a{
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Cinzel', serif;
 }
 .prob-state{
   font-size: 1.6rem;
@@ -649,12 +658,14 @@ a{
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  font-family: 'Cinzel', serif;
 }
 .nav-bar{
   display: flex;
   /* background-color: crimson; */
   /* border: 2px solid black; */
   height: 40px;
+  font-family: 'Cinzel', serif;
 }
 .contain{
   display: flex;
@@ -676,6 +687,8 @@ a{
 .contain p{
   font-size: 1.5rem;
   padding: 5%;
+  font-family: 'EB Garamond', serif;
+
 }
 main{
   background-color: #32151f3f;
