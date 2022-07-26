@@ -20,7 +20,7 @@
 body {
   /* height: 100vh; */
   /* background-color: var(--body-color); */
-  background-image: url("/img/1111.png");
+  background-image: url("/img/1111.jpg");
   /* background-repeat: no-repeat; */
   background-size: cover;
   background-repeat: repeat-y;
@@ -686,7 +686,7 @@ a{
 }
 .contain p{
   font-size: 1.5rem;
-  padding: 5%;
+  /* padding: 5%; */
   font-family: 'EB Garamond', serif;
 
 }
@@ -696,10 +696,15 @@ main{
 
 .register p{
   font-size: 1.25vw;
+  margin-top: 1rem;
 }
 .submit p{
   font-size: 1.25vw;
   /* font-size: 20px; */
+  margin-top: 1rem;
+}
+.prob-state p{
+  margin-top: 1rem;
 }
 
 .nav-bar button{
