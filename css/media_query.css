@@ -12,7 +12,12 @@
         font-size: calc(3.375rem * var(--smaller));
     }
     .countdown{
-        margin-top: 75%;
+        margin-top: 150%;
+        font-size: 1.6rem;
+    }
+    #headline{
+        font-size: 200%;
+        margin-bottom: 10%;
     }
 }
 
@@ -48,6 +53,7 @@
         font-size: 80%;
         color: white;
         text-align: center;
+        display: none;
     }
 
     .heading span {
@@ -144,6 +150,24 @@
     }
     .nav-bar img{
         justify-content: center;
+    }
+    .img-fluid1{
+        margin-top: 80%;
+    }
+    #count{
+        background-image: none;
+    }
+    .nav1{
+        background-image: none;
+    }
+    .event1{
+        background-image: none;
+    }
+    .main{
+        background-image: none;
+    }
+    .msg{
+        background-color: ;
     }
 }
 /*chetan event*/
