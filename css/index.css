@@ -18,12 +18,9 @@
 }
 
 body {
-  /* height: 100vh; */
-  /* background-color: var(--body-color); */
-  background-image: url("/img/1111.jpg");
-  /* background-repeat: no-repeat; */
-  background-size: cover;
-  background-repeat: repeat-y;
+  /* background-attachment:fixed; */
+  background-image: linear-gradient(to top, #6e4179, #613c6a, #54365b, #47314d, #3b2b3f);
+  /* background-image: radial-gradient(circle, #f0ff00, #fbd900, #ffb200, #fc8b00, #f36300, #dd481c, #c32f27, #a7172b, #7d152a, #541423, #2d1018, #000000); */
 }
 html{
   font-size: 62%;
@@ -39,15 +36,18 @@ section{
 
 
 /*Nav Bar Start*/
-
+.nav1{
+  background-image: linear-gradient(to bottom, #1e1a1f, #231b25, #291c2c, #2e1d32, #341e39, #381e3f, #3b1e46, #3e1e4d, #3e1f56, #3c205f, #392268, #332572);
+}
 nav {
+
   top: 0;
   left: 0;
   height: 4.375rem;
   width: 100%;
-  background-color: var(--nav-color);
+  background-color: transparent;
   z-index: 100;
-  color:white ;
+  /* color:#222 ; */
   /* justify-content: left; */
 }
 
@@ -99,11 +99,12 @@ nav .nav-bar .sidebarOpen {
 
 .nav-links li a {
   position: relative;
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   font-weight: 400;
-  color: white;
+  color: rgb(216, 202, 227);
   text-decoration: none;
-  font-family: 'Cinzel', serif;
+  font-family: 'Teko', sans-serif;
+  letter-spacing: 0.3rem;
 }
 
 .nav-links li a::before {
@@ -121,7 +122,7 @@ nav .nav-bar .sidebarOpen {
 }
 
 .nav-links li:hover {
-  background-color: #A5C9CA;
+  background-color: #0c0a0aa2;
   border-radius: 5%;
   margin-bottom: -5%;
 }
@@ -134,21 +135,37 @@ nav .nav-bar .sidebarOpen {
 
 
 /*Upsurge Title*/
-
+.heading{
+  background-image: url("/img/back3.jpg");
+  background-size:cover;
+}
 .upsurge {
+ 
   font-size: 8.5rem;
-  margin-top: 18%;
-  margin-left: 6%;
-  color: white;
+  margin-top: 20%;
+  margin-right: 6%;
+  color: #222;
+  text-align: center;
 }
 
 .upsurge h {
+  margin-top: 17%;
+  margin-left: 5%;
   font-family: 'Oswald', sans-serif;
+  color: rgb(247, 238, 238);
+letter-spacing: 0.5rem;
+font-family: 'Rajdhani', sans-serif;
+  font-weight: 900;
+  font-size: 10.5rem;
+  /* margin-bottom: -2%; */
 }
 
 .upsurge p {
+  margin-left: 5%;
   font-size: 20%;
-  text-align: left;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: 'Rajdhani', sans-serif;
 }
 
 /*Upsurge Title End*/
@@ -159,13 +176,25 @@ nav .nav-bar .sidebarOpen {
   color: rgb(255, 255, 255);
   margin: 0 auto;
   text-align: center;
-  margin-top: 14%;
+  margin-top: 1.7%;
   /* padding: 0.28rem; */
-  font-family: 'Cinzel', serif;
+  font-family: 'Teko', sans-serif;
+
   
 }
+#count{
+  background-image: linear-gradient(to right bottom, #710089, #541574, #3c195d, #281844, #19132b, #171328, #151225, #141122, #1a1735, #211c49, #29215d, #332572);
+}
+#headline{
+  font-size: 5rem;
+  letter-spacing: 1rem;
+}
+/* #countdown ul li span{
+  letter-spacing: 1.624rem;
+} */
 
 h1 {
+  font-family: 'Teko', sans-serif;
   font-weight: normal;
   letter-spacing: .125rem;
   text-transform: uppercase;
@@ -189,8 +218,12 @@ li span {
 
 
 /* --------------------shedule------------- */
+.event1{
+  /* background-color: #222; */
+  background-image: linear-gradient(to bottom, #1e1a1f, #231b25, #291c2c, #2e1d32, #341e39, #381e3f, #3b1e46, #3e1e4d, #3e1f56, #3c205f, #392268, #332572);
+}
 .event-container {
-  font-family: "Roboto", sans-serif;
+  /* font-family: 'Teko', sans-serif; */
   max-width: 800px;
   margin: 0 auto;
 }
@@ -246,6 +279,7 @@ li span {
 
 .event .event-right .event-timing {
   background: #222222;
+  color: wheat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -264,15 +298,18 @@ li span {
 
 
 .event {
-  color: white;
+  /* color: rgba(255, 255, 0, 0.701); */
   text-align: center;
   font-size: 1.8rem;
   margin-top: 10%;
-  font-family: 'Cinzel', serif;
+  font-family: 'Rajdhani', sans-serif;
 }
 .event h{
-  font-size: 5.27rem;
+  font-size: 6.27rem;
   margin: 10%;
+  font-family: 'Teko', sans-serif;
+  letter-spacing: 0.5rem;
+  color: rgb(216, 202, 227);
 }
 
 .main_event {
@@ -325,61 +362,73 @@ li span {
   height: 0;
   width: 0;
 }
+.msg{
+  background-color: rgba(255, 255, 0, 0.701);
+}
 
 .schedule {
-  color: white;
+  color: #222;;
   text-align: center;
-  font-size: 300%;
+  font-size: 6rem;
   margin-top: 8%;
-  font-family: 'Cinzel', serif;
+  font-family: 'Teko', sans-serif;
 }
 
 .teachers_messages {
-  color: white;
+  color: #222;
   text-align: center;
   font-size: 5rem;
   margin-top: 10%;
-  font-family: 'Cinzel', serif;
+  font-family: 'Teko', sans-serif;
+  letter-spacing: 1rem;
 }
 
 .teachers_messages p {
+  color: rgb(71, 5, 5);
   font-size: 1.625rem;
   text-align: left;
   text-align: center;
   padding: 4%;
-  font-family: 'EB Garamond', serif;
+  font-family: 'Rajdhani', sans-serif;
+  letter-spacing: 0rem;
 }
 
 .about {
-  color: white;
+  color: #222;
   text-align: center;
   font-size: 100%;
   margin-top: 5%;
-  font-family: 'Cinzel', serif;
+  font-family: 'Teko', sans-serif;
+  letter-spacing: 1rem;
 }
 
 .about p {
   font-size: 1.625rem;
   text-align: left;
+  color: rgb(71, 5, 5);
   text-align: center;
   padding: 5%;
-  font-family: 'EB Garamond', serif;
+  font-family: 'Rajdhani', sans-serif;
+  letter-spacing: 0rem;
 }
 
 .cse {
-  color: white;
+  color: #222;
   text-align: center;
   font-size: 3.5rem;
   margin-top: 5%;
-  font-family: 'Cinzel', serif;
+  font-family: 'Teko', sans-serif;
+  letter-spacing: 0.5rem;
 }
 
 .cse p {
   font-size: 1.625rem;
+  color: rgb(71, 5, 5);
   text-align: left;
   text-align: center;
   padding: 5%;
-  font-family: 'EB Garamond', serif;
+  font-family: 'Rajdhani', sans-serif;
+  letter-spacing: 0rem;
 }
 
 .container {
@@ -394,6 +443,7 @@ li span {
 .profile {
   flex-basis: 260px;
   justify-content: center;
+
 }
 
 .profile .profile-img {
@@ -414,8 +464,6 @@ li span {
 }
 
 .profile h5 {
-  margin-top: 8%;
-  margin-bottom: 10%;
   font-size: 18px;
   font-weight: 100;
   letter-spacing: 3px;
@@ -429,16 +477,16 @@ li span {
 }
 
 .team {
-  /* margin: %; */
-  /* margin-left: 0px; */
+background-color: #222;
 }
 
 .team h1{
  font-size: 4rem;
  text-align: center;
- color: #ffffff;
+ color: rgba(255, 255, 0, 0.701);
  margin-bottom: 10%;
- font-family: 'Cinzel', serif;
+ font-family: 'Teko', sans-serif;
+ letter-spacing: 0.5rem;
 }
 
 .ico {
@@ -452,6 +500,12 @@ li span {
 }
 
 /* ------------------event_0page--------------- */
+.event-description{
+  color: #222;
+}
+.event-date{
+  color: rgba(255, 255, 0, 0.701);
+}
 .event2 {
   display: grid;
   grid-template-columns: auto auto;
@@ -467,8 +521,8 @@ li span {
 
 .footer-basic {
   padding:1.25rem 0px;
-  background-color:#3d3d3d;
-  color:#ffffff;
+  background-color:rgba(255, 255, 0, 0.701);
+  color: black;
 }
 
 .footer-basic ul {
@@ -488,6 +542,8 @@ li span {
   color:inherit;
   text-decoration:none;
   opacity:0.8;
+  font-family: 'Rajdhani', sans-serif;
+  letter-spacing: 0rem;
 }
 
 .footer-basic ul a:hover {
@@ -507,7 +563,7 @@ li span {
   display:inline-block;
   text-align:center;
   border-radius:50%;
-  border:1px solid #ccc;
+  border:1px solid black;
   margin:0 8px;
   color:inherit;
   opacity:0.75;
@@ -521,7 +577,7 @@ li span {
   margin-top:15px;
   text-align:center;
   font-size:13px;
-  color:#aaa;
+  color:black;
   margin-bottom:0;
 }
 
