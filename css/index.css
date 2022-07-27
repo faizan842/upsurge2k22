@@ -464,8 +464,6 @@ li span {
 }
 
 .profile h5 {
-  margin-top:8%;
-  margin-bottom:10%;
   font-size: 18px;
   font-weight: 100;
   letter-spacing: 3px;
@@ -479,7 +477,9 @@ li span {
 }
 
 .team {
-background-color: #222;
+/* background-color: #222;
+ */
+ background-image: url("/img/teamback.jpg");
 }
 
 .team h1{
@@ -594,6 +594,7 @@ main{
   flex-direction: column;
   /* margin: 40px 0px 0px 0px; */
   justify-content: space-between;
+  background-image: linear-gradient(to bottom, #1e1a1f, #231b25, #291c2c, #2e1d32, #341e39, #381e3f, #3b1e46, #3e1e4d, #3e1f56, #3c205f, #392268, #332572);
 
 }
 
@@ -655,8 +656,8 @@ a{
 .register{
   /* margin: 4%; */
   /* padding: 0% 0%; */
-  /* background-color:rgb(59, 173, 226); */
-  border: 2px solid rgb(255, 255, 255);
+  background-color:rgb(196, 138, 194);
+  border-radius: 2rem;
   /* margin: 0; */
   width: 100%;
   text-align: center;
@@ -669,8 +670,9 @@ a{
 .prob-state{
   /* padding: 4%; */
   /* margin: ; */
-  /* background-color: rgb(151, 59, 236); */
-  border: 2px solid rgb(255, 255, 255);
+  background-color:rgb(196, 138, 194);
+  border-radius: 2rem;
+
   /* margin: 0; */
   width: 100%;
   text-align: center;
@@ -683,8 +685,8 @@ a{
 .submit{
   /* padding: 4%; */
   /* margin: 4%; */
-  /* background-color: rgb(34, 236, 68); */
-  border: 2px solid rgb(255, 255, 255);
+  background-color:rgb(196, 138, 194);
+  border-radius: 2rem;
   /* margin: 0; */
   width: 100%;
   text-align: center;
@@ -720,6 +722,10 @@ a{
   align-items: center;
   font-family: 'Cinzel', serif;
 }
+.event-name p{
+  font-family: 'Teko', sans-serif;
+  letter-spacing: 0.3rem;
+}
 .nav-bar{
   display: flex;
   /* background-color: crimson; */
@@ -745,9 +751,10 @@ a{
   /* background-color: rgb(216, 216, 30); */
 }
 .contain p{
-  font-size: 1.5rem;
-  /* padding: 5%; */
-  font-family: 'EB Garamond', serif;
+  font-size: 1.7rem;
+  padding: 5%;
+  font-family: 'Rajdhani', sans-serif;
+  letter-spacing: 0.2rem;
 
 }
 main{
@@ -757,14 +764,21 @@ main{
 .register p{
   font-size: 1.25vw;
   margin-top: 1rem;
+  color: rgb(25, 2, 25);
+  font-family: 'Rajdhani', sans-serif;
 }
 .submit p{
   font-size: 1.25vw;
   /* font-size: 20px; */
   margin-top: 1rem;
+  color: rgb(25, 2, 25);
+  font-family: 'Rajdhani', sans-serif;
 }
 .prob-state p{
+  font-size: 1.25vw;
   margin-top: 1rem;
+  color: rgb(25, 2, 25);
+  font-family: 'Rajdhani', sans-serif;
 }
 
 .nav-bar button{
@@ -774,9 +788,11 @@ main{
   margin: 0% auto;
   padding: 0% 5%;
   border: 2px solid black;
-  background-color: rgba(153, 238, 227, 0.911);
+  background-color:rgb(196, 138, 194);
+  color: rgb(25, 2, 25);
   font-size: 2rem;
   /* background-color: rgb(21, 243, 206); */
+  font-family: 'Rajdhani', sans-serif;
 }
 .first{
   /* background-color: rgb(138, 245, 165); */
