@@ -216,7 +216,7 @@ li {
   display: inline-block;
   font-size: 1.5em;
   list-style-type: none;
-  padding: 1rem;
+  padding: 0.5rem;
   text-transform: uppercase;
 }
 
