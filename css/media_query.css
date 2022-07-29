@@ -11,16 +11,15 @@
     li span {
         font-size: calc(3.375rem * var(--smaller));
     }
-    .countdown{
-        margin-top: 80%;
-        font-size: 2.2rem;
+
+    .countdown {
+        margin-top: 150%;
+        font-size: 1.6rem;
     }
-    #headline{
-        font-size: 4.5rem;
+
+    #headline {
+        font-size: 200%;
         margin-bottom: 10%;
-    }
-        .commet img{
-        width: 70%;
     }
 }
 
@@ -112,7 +111,7 @@
     }
 
     .logo-toggle .siderbarClose {
-        color:white;
+        color: white;
         font-size: 24px;
         cursor: pointer;
     }
@@ -148,154 +147,211 @@
 
 /*-------------upsurge & nav image--------------*/
 @media only screen and (max-width: 900px) {
-    .upsurge{
+    .upsurge {
         display: none;
     }
-    .nav-bar img{
+
+    .nav-bar img {
         justify-content: center;
     }
-    .img-fluid1{
+
+    .img-fluid1 {
         margin-top: 80%;
     }
-    #count{
+
+    #count {
         background-image: none;
     }
-    .nav1{
+
+    .nav1 {
         background-image: none;
     }
-    .event1{
+
+    .event1 {
         background-image: none;
     }
-    .main{
+
+    .main {
         background-image: none;
     }
-    .msg{
-        background-color: ;
+
+    .msg {
+        /*background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37,145,251,0.98) 0.1%, rgba(0,7,128,1) 99.8% );*/
+    }
+
+    body {
+        background-image: url(/shubham-dhage-mjl0yIdSi18-unsplash.jpg);
+    }
+
+    .footer-basic {
+        background-color: #4158D0;
+        background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    }
+    .team{
+        background-image: none;
+        border-radius: 2%;
+        box-shadow: 5px 5px 5px 5px black;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-bottom: 10%;
+    }
+    .countdown{
+        font-family: none;
+    }
+    .countdown h1{
+        font-family: 'Teko', sans-serif;
     }
 }
+
 /*chetan event*/
-@media screen and (max-width: 1000px ){
-    .gradient{
+@media screen and (max-width: 1000px) {
+    .gradient {
         height: 10vh;
     }
-    main{
+
+    main {
         justify-content: flex-start;
         margin-top: 45px;
     }
-    .main-body{
+
+    .main-body {
         display: flex;
-justify-content: flex-start;
-align-items: center;
-flex-direction: column;
-height: 90vh;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        height: 90vh;
     }
-    .abc{
+
+    .abc {
         height: 35vh;
         width: 100vw;
         margin: 0;
     }
-    .details{
+
+    .details {
         margin: 0;
         height: 35vh;
         width: 100vw;
     }
-    .event-name{
+
+    .event-name {
         margin: 0px 25px;
     }
-    .nav-bar{
+
+    .nav-bar {
         margin: 0px 10px;
     }
-    .all-button{
+
+    .all-button {
         justify-content: center;
     }
 
 }
 
 @media screen and (max-width: 690px) {
-    .left-nav{
+    .left-nav {
         width: 40vw;
     }
-    .footer-left-details a{
+
+    .footer-left-details a {
         font-size: 3vw;
     }
-    .right-nav{
+
+    .right-nav {
         width: 40vw;
     }
-    .first-data a{
+
+    .first-data a {
         font-size: 3vw;
     }
-    .second-data a{
+
+    .second-data a {
         font-size: 3vw;
     }
 }
 
 @media screen and (max-width: 550px) {
-    main{
+    main {
         height: 120vh;
         justify-content: space-between;
     }
-    .event-img{
+
+    .event-img {
         width: 30vw;
         background-size: 30vw;
     }
-    .details{
+
+    .details {
         height: 75vh;
     }
-    .contain{
+
+    .contain {
         height: 50vh;
     }
-    .all-button{
+
+    .all-button {
         width: 40vw;
     }
-    .all-button a div{
+
+    .all-button a div {
         height: 6vw;
     }
-    .all-button a div p{
+
+    .all-button a div p {
         font-size: 3.25vw;
     }
-    .nav-bar{
+
+    .nav-bar {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         grid-auto-rows: 40px;
         gap: 10px;
         height: fit-content;
         margin: 15px 0px;
     }
-    .nav-bar button{
+
+    .nav-bar button {
         width: 30vw;
         font-size: 1.7rem;
     }
-    
+
 }
 
 @media screen and (max-width: 500px) {
-    .contain{
+    .contain {
         flex-direction: column;
         justify-content: flex-start;
     }
-    .first{
+
+    .first {
         width: 100vw;
         height: 20vh;
     }
-    .person1{
+
+    .person1 {
         background-size: 20%;
     }
-    .person1-details{
+
+    .person1-details {
         padding: 0;
-    text-align: center;
+        text-align: center;
     }
-    .second{
+
+    .second {
         width: 100vw;
         height: 20vh;
     }
-    .person2{
+
+    .person2 {
         background-size: 20%;
         margin: 5%;
     }
-    .person2-details{
+
+    .person2-details {
         padding: 0;
         text-align: center;
         margin: 5%;
     }
 }
+
 /*chetan event end*/
