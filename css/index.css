@@ -77,7 +77,7 @@ nav .nav-bar .logo img{
 
 nav .nav-bar .sidebarOpen {
   color: white;
-  font-size: 1.5625rem;
+  font-size: 3.5625rem;
   padding: 0.3125rem;
   cursor: pointer;
   display: none;
@@ -608,7 +608,6 @@ main{
   flex-direction: column;
   /* margin: 40px 0px 0px 0px; */
   justify-content: space-between;
-  background-image: linear-gradient(to bottom, #1e1a1f, #231b25, #291c2c, #2e1d32, #341e39, #381e3f, #3b1e46, #3e1e4d, #3e1f56, #3c205f, #392268, #332572);
 
 }
 
@@ -620,7 +619,7 @@ main{
 }
 
 p{
-  color: white;
+  /*color: white;*/
 }
 
 .abc{
