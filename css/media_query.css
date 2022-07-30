@@ -41,7 +41,10 @@
     .event {
         flex-direction: column;
     }
-
+    .countdown ul li{
+        padding-left: 1%;
+        padding-right: 1%;
+      }
     .event .event-left {
         padding: 0;
         border-radius: 8px 8px 0 0;
@@ -188,9 +191,7 @@
         background-image: none;
     }
 
-    .msg {
-        /*background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37,145,251,0.98) 0.1%, rgba(0,7,128,1) 99.8% );*/
-    }
+    
 
     body {
         background-image: url(/img/shubham-dhage-mjl0yIdSi18-unsplash.jpg);
@@ -284,6 +285,13 @@
 }
 
 @media screen and (max-width: 550px) {
+    .register:hover{
+        background-color: rgb(51, 18, 59);
+      
+      }
+      .register p:hover{
+       color: white;
+      }
     main {
         height: 120vh;
         justify-content: space-between;
@@ -310,6 +318,7 @@
         height: 6vw;
     }
 
+
     .all-button a div p {
         font-size: 3.25vw;
     }
@@ -326,6 +335,10 @@
     .nav-bar button {
         width: 30vw;
         font-size: 1.7rem;
+    }
+    .nav-bar button:hover{
+        background-color: #4e204b;
+        color: white;
     }
 
 }
