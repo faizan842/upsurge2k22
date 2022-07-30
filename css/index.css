@@ -18,9 +18,9 @@
 }
 
 body {
-  /* background-attachment:fixed; */
+  
   background-image: linear-gradient(to right bottom, #710089, #541574, #3c195d, #281844, #19132b, #171328, #151225, #141122, #1a1735, #211c49, #29215d, #332572);
-  /* background-image: radial-gradient(circle, #f0ff00, #fbd900, #ffb200, #fc8b00, #f36300, #dd481c, #c32f27, #a7172b, #7d152a, #541423, #2d1018, #000000); */
+  
 }
 html{
   font-size: 62%;
@@ -37,7 +37,7 @@ section{
 
 /*Nav Bar Start*/
 .nav1{
-  background-image: linear-gradient(to bottom, #1e1a1f, #231b25, #291c2c, #2e1d32, #341e39, #381e3f, #3b1e46, #3e1e4d, #3e1f56, #3c205f, #392268, #332572);
+    background-image: linear-gradient(to bottom, #1e1a1f, #231b25, #291c2c, #2e1d32, #341e39, #381e3f, #3b1e46, #3e1e4d, #3e1f56, #3c205f, #392268, #332572);
 }
 nav {
 
@@ -47,8 +47,7 @@ nav {
   width: 100%;
   background-color: transparent;
   z-index: 100;
-  /* color:#222 ; */
-  /* justify-content: left; */
+
 }
 
 body.dark nav {
@@ -61,7 +60,6 @@ nav .nav-bar {
   height: 95%;
   max-width: 62.5rem;
   width: 100%;
-  background-color: var(--nav-color);
   margin: 0 auto;
   padding: -1 1.875rem;
   display: flex;
@@ -70,9 +68,9 @@ nav .nav-bar {
   margin-right: 85%;
 }
 nav .nav-bar .logo img{
-  /*background-color: #000000;*/
-  width: 100%;
-  /*background-blend-mode: screen;*/
+  width: 10rem;
+  margin-top: 20%;
+
 }
 
 nav .nav-bar .sidebarOpen {
@@ -126,7 +124,9 @@ nav .nav-bar .sidebarOpen {
   border-radius: 5%;
   margin-bottom: -5%;
 }
-
+.img-fluid{
+  max-width: 0;
+}
 
 
 
@@ -151,13 +151,13 @@ nav .nav-bar .sidebarOpen {
 .upsurge h {
   margin-top: 17%;
   margin-left: 5%;
-  font-family: 'Oswald', sans-serif;
+
   color: rgb(247, 238, 238);
 letter-spacing: 0.5rem;
-font-family: 'Rajdhani', sans-serif;
+font-family: 'Monoton', cursive;
   font-weight: 900;
   font-size: 10.5rem;
-  /* margin-bottom: -2%; */
+
   text-shadow: 0 1px 0 #ccc,
                0 2px 0 #c9c9c9,
                0 3px 0 #bbb,
@@ -189,10 +189,14 @@ font-family: 'Rajdhani', sans-serif;
   margin: 0 auto;
   text-align: center;
   margin-top: 1.7%;
-  /* padding: 0.28rem; */
+  /* */
   font-family: 'Teko', sans-serif;
 
   
+}
+.countdown ul li{
+  padding-left: 2%;
+  padding-right: 2%;
 }
 #count{
   background-image: linear-gradient(to right bottom, #710089, #541574, #3c195d, #281844, #19132b, #171328, #151225, #141122, #1a1735, #211c49, #29215d, #332572);
@@ -374,12 +378,10 @@ li span {
   height: 0;
   width: 0;
 }
-.msg{
-  /*background-color: rgba(255, 255, 0, 0.701);*/
-}
+
 
 .schedule {
-  color: #222;;
+  color: rgb(215, 192, 233);
   text-align: center;
   font-size: 6rem;
   margin-top: 8%;
@@ -387,7 +389,7 @@ li span {
 }
 
 .teachers_messages {
-  color: #222;
+  color: rgb(215, 192, 233);
   text-align: center;
   font-size: 5rem;
   margin-top: 10%;
@@ -396,7 +398,7 @@ li span {
 }
 
 .teachers_messages p {
-  color: rgb(71, 5, 5);
+  color: rgb(230, 193, 141);
   font-size: 1.625rem;
   text-align: left;
   text-align: center;
@@ -406,7 +408,7 @@ li span {
 }
 
 .about {
-  color: #222;
+  color: rgb(215, 192, 233);
   text-align: center;
   font-size: 100%;
   margin-top: 5%;
@@ -417,7 +419,7 @@ li span {
 .about p {
   font-size: 1.625rem;
   text-align: left;
-  color: rgb(71, 5, 5);
+  color: rgb(230, 193, 141);
   text-align: center;
   padding: 5%;
   font-family: 'Rajdhani', sans-serif;
@@ -425,9 +427,9 @@ li span {
 }
 
 .cse {
-  color: #222;
+  color: rgb(215, 192, 233);
   text-align: center;
-  font-size: 3.5rem;
+  font-size: 3.4rem;
   margin-top: 5%;
   font-family: 'Teko', sans-serif;
   letter-spacing: 0.5rem;
@@ -435,7 +437,7 @@ li span {
 
 .cse p {
   font-size: 1.625rem;
-  color: rgb(71, 5, 5);
+  color: rgb(230, 193, 141);
   text-align: left;
   text-align: center;
   padding: 5%;
@@ -456,6 +458,9 @@ li span {
   flex-basis: 260px;
   justify-content: center;
 
+}
+.profile a:hover{
+  text-decoration: none;
 }
 
 .profile .profile-img {
@@ -482,6 +487,11 @@ li span {
   font-weight: 100;
   letter-spacing: 3px;
   color: #ccc;
+  font-family: 'Teko', sans-serif;
+
+}
+.profile h5:hover{
+color: rgb(231, 211, 241);
 }
 
 .profile p {
@@ -494,6 +504,7 @@ li span {
 /* background-color: #222;
  */
  background-image: url("/img/teamback.jpg");
+ background-size: cover
 }
 
 .team h1{
@@ -517,7 +528,7 @@ li span {
 
 /* ------------------event_0page--------------- */
 .event-description{
-  color: #222;
+  color: rgb(255, 255, 255);
 }
 .event-date{
   color: rgba(255, 255, 0, 0.701);
@@ -606,43 +617,39 @@ li span {
 main{
   display: flex;
   flex-direction: column;
-  /* margin: 40px 0px 0px 0px; */
+
   justify-content: space-between;
 
 }
 
 .main-body{
-  /* margin: 190px 0px 0px 0px; */
+
   display: flex;
-  /* padding: 0vw 2vw; */
+
   justify-content: center;
 }
 
-p{
-  /*color: white;*/
-}
+
 
 .abc{
-  /* height: calc(100% - 48px - 11%); */
-  /* height: 90vh; */
+
   width: 20vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-right: 30px;
-  /* background-color: aqua; */
+
 }
 .event-img{
   background-image: url(/img/img1.jpg) ;
-  /* border: 3px solid rgb(255, 255, 255); */
+
   background-size: 220px;
   background-position: center;
   background-repeat: no-repeat;
   height: 280px;
   width: 280px;
 
-  /* height: fit-content; */
-  /* width: fit-content; */
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -660,18 +667,28 @@ p{
   width: 75%;
   margin: 2%;
 }
+.all-button a:hover{
+  text-decoration: none;
+}
+
 a{
   text-decoration: none;
   color: rgb(255, 254, 254);
     font-family: 'Cinzel', serif;
 }
 
+.register:hover{
+  background-color: rgb(51, 18, 59);
+
+}
+.register p:hover{
+ color: white;
+}
 .register{
-  /* margin: 4%; */
-  /* padding: 0% 0%; */
+
   background-color:rgb(196, 138, 194);
   border-radius: 2rem;
-  /* margin: 0; */
+
   width: 100%;
   text-align: center;
   height: 3vw;
@@ -681,12 +698,11 @@ a{
   font-family: 'Cinzel', serif;
 }
 .prob-state{
-  /* padding: 4%; */
-  /* margin: ; */
+
   background-color:rgb(196, 138, 194);
   border-radius: 2rem;
 
-  /* margin: 0; */
+
   width: 100%;
   text-align: center;
   height: 3vw;
@@ -694,13 +710,18 @@ a{
   justify-content: center;
   align-items: center;
   font-family: 'Cinzel', serif;
+}
+.prob-state:hover{
+  background-color: rgb(51, 18, 59);
+}
+.prob-state p:hover{
+  color: white;
 }
 .submit{
-  /* padding: 4%; */
-  /* margin: 4%; */
+
   background-color:rgb(196, 138, 194);
   border-radius: 2rem;
-  /* margin: 0; */
+
   width: 100%;
   text-align: center;
   height: 3vw;
@@ -709,23 +730,30 @@ a{
   align-items: center;
   font-family: 'Cinzel', serif;
 }
+.submit p:hover{
+color: white;
+}
+.submit:hover{
+  background-color: rgb(51, 18, 59);
+}
+
 .prob-state{
   font-size: 1.6rem;
 }
 .space{
   width: 2%;
-  /* background-color: white; */
+
 }
 
 
 .details{
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
+
   height: 90vh;
   width: 70vw;
   margin-left: 30px;
-  /* background-color:rebeccapurple; */
+
 }
 .event-name{
   margin: 2% 0% 0% 0%;
@@ -738,22 +766,26 @@ a{
 .event-name p{
   font-family: 'Teko', sans-serif;
   letter-spacing: 0.3rem;
+  color: rgb(215, 192, 233);
 }
 .nav-bar{
   display: flex;
-  /* background-color: crimson; */
-  /* border: 2px solid black; */
+
   height: 40px;
   font-family: 'Cinzel', serif;
+}
+.nav-bar button:hover{
+  color: white;
+  background-color: rgb(51, 18, 59);
 }
 .contain{
   display: flex;
   justify-content: space-evenly;
   height: 300px;
   margin: 2% 0% 0% 0% ;
-  /* border: 2px solid rgb(255, 255, 255); */
+
   padding: 2%;
-  /* background-color: rgb(216, 216, 30); */
+
   margin-bottom: 5%;
 }
 .contain-img{
@@ -762,18 +794,17 @@ a{
   height: 40vh;
   margin: 2% 0% 0% 0% ;
   border: 2px solid rgb(255, 255, 255);
-  /* background-color: rgb(216, 216, 30); */
+
 }
 .contain p{
   font-size: 1.7rem;
-  padding: 5%;
+  padding: 2%;
   font-family: 'Rajdhani', sans-serif;
   letter-spacing: 0.2rem;
+  color: rgb(230, 193, 141);
+  margin-bottom: 0rem;
+}
 
-}
-main{
-  background-color: #32151f3f;
-}
 
 .register p{
   font-size: 1.25vw;
@@ -805,16 +836,16 @@ main{
   background-color:rgb(196, 138, 194);
   color: rgb(25, 2, 25);
   font-size: 2rem;
-  /* background-color: rgb(21, 243, 206); */
+
   font-family: 'Rajdhani', sans-serif;
 }
 .first{
-  /* background-color: rgb(138, 245, 165); */
+
   width: 40%;
 }
 .person1{
-  background-image: url(/img/img1.jpg) ;
-  /* border: 3px solid black; */
+  background-image: url("/img/1.png") ;
+
   background-size: 30%;
   background-position: center;
   background-repeat: no-repeat;
@@ -829,7 +860,7 @@ main{
 }
 .second{
   width: 40%;
-  /* background-color: rgb(75, 236, 241); */
+
 }
 .person2{
   background-image: url(/img/img2.jpg) ;
@@ -846,6 +877,177 @@ main{
   padding: 5% 0% 0% 20%;
   height: 35%
 }
+/* --------------------cosmos-------------------- */
+
+.main-title{
+  text-align: center;
+  margin: 4%;
+  margin-top: 1%;
+}
+.main-title h1{
+  font-family: 'Teko', sans-serif;
+
+}
+.main-title p{
+  font-family: 'Rajdhani', sans-serif;
+}
+.big-container{
+  display: flex;
+  justify-content: center;
+  margin: 0px auto;
+}
+.main-container{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.main-title p{
+  margin: 5px 0px 7px 0px;
+  font-size: 17px;
+  color: white;
+}
+.main-title h1{
+  color: white;
+}
+.information h3{
+  margin-bottom: 5px;
+  color: white;
+  font-size: 2rem;
+  font-family: 'Rajdhani', sans-serif;
+}
+.information p{
+  font-size: 1.5rem;
+  color: white;
+  font-family: 'Rajdhani', sans-serif;
+}
+.information{
+  padding: 20px 70px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+.image1{
+  width: 150px;
+  height: 150px;
+  /* background-image: url(/img/faizan.jpg); */
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 50% !important;
+  margin-bottom: 20%;
+}
+.image2{
+  width: 150px;
+  height: 150px;
+  /* background-image: url(/img/chetan.jpg); */
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 50% !important;
+  margin-bottom: 20%;
+}
+.image3{
+  width: 150px;
+  height: 150px;
+  /* background-image: url(/img/navin.jpg); */
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 50% !important;
+  margin-bottom: 20%;
+}
+.social a{
+  color: white;
+  font-size: 2rem;
+}
+
+#a1{
+  background-image: url(/img/Kartik\ Kashikar.jpg);
+
+}
+#a2{
+  background-image: url(/img/kuch.jpg);
+}
+#a3{
+  background-image: url(/img/tejaswini.jpg);
+  background-position: 50% 80%;
+}
+#a4{
+  background-image: url(/img/arjun1.jpeg);
+}
+#a5{
+  background-image: url(/img/img1.jpg);
+}
+#a6{
+  background-image: url(/img/sudhanshu\ -\ Cse\ Ycce.jpg);
+}
+#a7{
+  background-image: url(/img/vedant.jpg);
+  background-position: 50% 1%;
+}
+#a8{
+  background-image: url(/img/pic\ -\ Ashwati\ Rajankar.jpg);
+}
+#a9{
+  background-image: url(/img/sahil.jpeg);
+}
+#a10{
+  background-image: url(/img/faizan.jpg);
+}
+#a11{
+  background-image: url(/img/yash.jpg);
+}
+#a12{
+  background-image: url(/img/chetan.jpg);
+}
+#a13{
+  background-image: url(/img/yatharth.jpg);
+}
+#a14{
+  background-image: url(/img/rinesh.jpeg);
+}
+#a15{
+  background-image: url(/img/navin.jpg);
+}
+#a16{
+  background-image: url(/img/kshitij.jpg);
+  background-position: 50% 3%;
+}
+#a17{
+  background-image: url(/img/sakshi.jpg);
+}
+#a18{
+  background-image: url(/img/riyaaaaa.jpg);
+  background-position: 50% 14%;
+}
+#a19{
+  background-image: url(/img/Picsart_22-07-28_16-06-09-171\ -\ Vaishnav\ Dekate.jpg);
+}
+#a20{
+  background-image: url(/img/Nidhi\ Rathod.jpg);
+  background-position: 50% 12%;
+}
+#a21{
+  background-image: url(/img/Megha\ -\ Megha\ Bokade.jpeg);
+  background-position: 50% 5%;
+}
+#a22{
+  background-image: url(/img/aditya.jpeg);
+}
+#a23{
+  background-image: url(/img/rutuja.jpg);
+}
+#a24{
+  background-image: url(/img/paresh.jpg);
+}
+#a25{
+  background-image: url(/img/1.png);
+}
+#a26{
+  background-image: url(/img/1.png);
+}
+#a27{
+  background-image: url(/img/Picsart_22-04-27_15-26-37-062\ -\ VAIBHAV\ PATIL.jpg);
+  background-position: 50% 29%;
+}
 
 
 
@@ -872,6 +1074,45 @@ main{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+  .main-container{
+      grid-template-columns: auto auto auto;
+  }
+}
+@media screen and (max-width: 850px) {
+  .main-container{
+      grid-template-columns: auto auto;
+  }
+}
+@media screen and (max-width: 620px) {
+  .main-container{
+      grid-template-columns: auto auto;
+  }
+}
+@media screen and (max-width: 580px) {
+  .main-container{
+      grid-template-columns: auto auto;
+  }
+  .information{
+      padding: 20px 15px;
+  }
+}
 
 
 
