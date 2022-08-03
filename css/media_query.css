@@ -215,6 +215,9 @@
     .countdown h1{
         font-family: 'Teko', sans-serif;
     }
+    #new{
+        margin-top: 900%;
+    }
 }
 
 /*chetan event*/
