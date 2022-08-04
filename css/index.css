@@ -54,7 +54,13 @@ body.dark nav {
   border: 0.0625rem solid #393838;
 
 }
+.commet h1{
+  color: rgb(216, 202, 227);
+  font-size: 3rem;
+  font-family: 'Teko', sans-serif;
+  text-align: center;
 
+}
 nav .nav-bar {
   position: relative;
   height: 95%;
@@ -629,7 +635,9 @@ main{
   justify-content: center;
 }
 
-
+#smack{
+  width: 10%;
+}
 
 .abc{
 
@@ -641,13 +649,13 @@ main{
 
 }
 .event-img{
-  background-image: url(/img/img1.jpg) ;
+  background-image: url("/img/smack.png") ;
 
-  background-size: 220px;
+  background-size: 69%;
   background-position: center;
   background-repeat: no-repeat;
-  height: 280px;
-  width: 280px;
+  height: 374px;
+  width: 338px;
 
 
   display: flex;
@@ -797,7 +805,7 @@ color: white;
 
 }
 .contain p{
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   padding: 2%;
   font-family: 'Rajdhani', sans-serif;
   letter-spacing: 0.2rem;
@@ -844,7 +852,7 @@ color: white;
   width: 40%;
 }
 .person1{
-  background-image: url("/img/1.png") ;
+  background-image: url("/img/sudhanshu\ -\ Cse\ Ycce.jpg") ;
 
   background-size: 30%;
   background-position: center;
@@ -863,7 +871,7 @@ color: white;
 
 }
 .person2{
-  background-image: url(/img/img2.jpg) ;
+  background-image: url("/img/sahil.jpeg") ;
   /* border: 3px solid black; */
   background-size: 30%;
   background-position: center;
@@ -974,7 +982,7 @@ color: white;
   background-image: url(/img/arjun.jpeg);
 }
 #a5{
-  background-image: url(/img/img1.jpg);
+  background-image: url(/img/sid.jpeg);
 }
 #a6{
   background-image: url(/img/sudhanshu\ -\ Cse\ Ycce.jpg);
@@ -1039,16 +1047,28 @@ color: white;
   background-image: url(/img/paresh.jpg);
 }
 #a25{
-  background-image: url(/img/1.png);
+  background-image: url(/img/adiiii.jpg);
 }
 #a26{
-  background-image: url(/img/1.png);
+  background-image: url(/img/selokar.jpeg);
 }
 #a27{
   background-image: url(/img/Picsart_22-04-27_15-26-37-062\ -\ VAIBHAV\ PATIL.jpg);
   background-position: 50% 29%;
 }
-
+.about-cos{
+  text-align: center;
+  padding: 3%;
+  font-family: 'Rajdhani', sans-serif;
+}
+.about-cos h1{
+  font-size: 5rem;
+  color:rgb(196, 138, 194);
+}
+.about-cos p{
+  font-size: 1.7rem;
+  color: rgb(230, 193, 141);
+}
 
 
 
