@@ -46,7 +46,7 @@ body.addEventListener("click", e => {
     mm = String(today.getMonth() + 1).padStart(2, "0"),
     yyyy = today.getFullYear(),
     nextYear = yyyy + 1,
-    dayMonth = "09/01",
+    dayMonth = "09/01/",
     birthday = dayMonth + yyyy;
 
   today = mm + "/" + dd + "/" + yyyy;
@@ -109,23 +109,34 @@ function sideScroll(element, direction, speed, distance, step) {
 // const fs = Request("fs");
 function aboutText() {
   const main = document.getElementById("demo");
-  const externalHTML = `<p> Magic Pen is an individual article writing competition, from the above topics choose any one topic, write an article on it and submit.
-The Competition is open for all the students currently pursuing their U.G.<br>All the participants submit their article at google form linked below.<br>Link: <br>The Article needs to be submitted in doc.x form.
-Whole article should be in 500 words (i.e 1 page with font=Time New Roman, Font size 12)
-File Name Format:<br>MagicPen_yourname_collegeName. </p>`;
+  const externalHTML = `<p> REGISTRATION DETAILS :
+  Registration will be starting from 5th August 2022.<br>
+  Entry Fees : ₹500/- per team
+  Team Size: 3-5
+  <br>
+  RELEASE OF PROBLEM STATEMENTS :
+  <br>
+  Problem Statements from every domain will be released 12th August 2022.
+  <br>
+  PRE-LIMINARY ROUND :
+  
+  Teams will be shortlisted on the basis of an explanatory video by our technical team.
+  <br>
+  FINAL ROUND :
+  
+  We will have no. of panel/panels of judges based on the Registration.
+  
+  Winner Team and the Runner Up Teams will be selected by our decided Panel</p>`;
   main.innerHTML = externalHTML;
 }
 function timelineText() {
   const main = document.getElementById("demo");
-  const externalHTML = `<p> timeline </p>`;
+  const externalHTML = `<p>5 AUGUST :- Registration starts <br> 12 AUGUST :- Problem statement will be released <br>25 AUGUST :- Registerd teams have to upload there prototype explanetry videos<br>1 SEPETEMBER :- Comming Soon...</p>`;
   main.innerHTML = externalHTML;
 }
 function judgeText() {
   const main = document.getElementById("demo");
-  const externalHTML = `<p> Magic Pen is an individual article writing competition, from the above topics choose any one topic, write an article on it and submit.
-  The Competition is open for all the students currently pursuing their U.G.<br>All the participants submit their article at google form linked below.<br>Link: <br>The Article needs to be submitted in doc.x form.
-  Whole article should be in 500 words (i.e 1 page with font=Time New Roman, Font size 12)
-  File Name Format:<br>MagicPen_yourname_collegeName. </p>`;
+  const externalHTML = `<p>Will be revelead soon....</p>`;
   main.innerHTML = externalHTML;
 }
 function contactText() {
@@ -134,17 +145,19 @@ function contactText() {
     <div class="first">
                 <div class="person1"></div>
                 <div class="person1-details">
-                  <p>Name:- ******* ******</p>
-                  <p>Mob no:- **********</p>
+                  <p>SUDHANSHU NERKAR</p>
+                  <p>7391995430</p>
                 </div>
               </div>
 
               <div class="second">
                 <div class="person2"></div>
                 <div class="person2-details">
-                  <p>Name:- ******* ******</p>
-                  <p>Mob no:- **********</p>
+                  <p>SAHIL DAFADE</p>
+                  <p>9011170771</p>
                 </div>
               </div>`;
   main.innerHTML = externalHTML;
 }
+
+
