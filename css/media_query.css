@@ -14,7 +14,7 @@
     }
 
     .countdown {
-        margin-top: 80%;
+        margin-top: 10%;
         font-size: 2rem;
         font-family: 'Dosis', sans-serif;
     }
@@ -214,9 +214,6 @@
     }
     .countdown h1{
         font-family: 'Teko', sans-serif;
-    }
-    #new{
-        margin-top: 900%;
     }
 }
 
