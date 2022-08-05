@@ -54,12 +54,18 @@ body.dark nav {
   border: 0.0625rem solid #393838;
 
 }
+#coo{
+  width: 50%;
+}
 .commet h1{
   color: rgb(216, 202, 227);
   font-size: 3rem;
   font-family: 'Teko', sans-serif;
   text-align: center;
 
+}
+.commet img{
+  width: 20%;
 }
 nav .nav-bar {
   position: relative;
