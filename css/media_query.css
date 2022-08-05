@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap');
 /*Timer*/
 @media all and (max-width: 768px) {
+    #coo{
+        width: 100%;
+    }
+    #coo2{
+        width: 50%;
+    }
     h1 {
         font-size: calc(1.5rem * var(--smaller));
     }
