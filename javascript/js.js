@@ -110,7 +110,8 @@ function sideScroll(element, direction, speed, distance, step) {
 function aboutText() {
   const main = document.getElementById("demo");
   const externalHTML = `<p> REGISTRATION DETAILS :
-  Registration will be starting from 5th August 2022.<br>
+  Registrations will be starting from 5th August 2022.<br>
+  Registrations will End on 24th August 2022.<br>
   Entry Fees : ₹500/- per team
   Team Size: 3-5
   <br>
@@ -118,7 +119,7 @@ function aboutText() {
   <br>
   Problem Statements from every domain will be released 12th August 2022.
   <br>
-  PRE-LIMINARY ROUND :
+  PRELIMINARY ROUND :
   
   Teams will be shortlisted on the basis of an explanatory video by our technical team.
   <br>
@@ -136,7 +137,7 @@ function timelineText() {
 }
 function judgeText() {
   const main = document.getElementById("demo");
-  const externalHTML = `<p>Will be revelead soon....</p>`;
+  const externalHTML = `<p>Will be revealed soon....</p>`;
   main.innerHTML = externalHTML;
 }
 function contactText() {
