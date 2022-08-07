@@ -5,7 +5,8 @@
         width: 100%;
     }
     #coo2{
-        width: 50%;
+        width: 70%;
+        border-radius: 50%;
     }
     h1 {
         font-size: calc(1.5rem * var(--smaller));
@@ -363,7 +364,13 @@
     .person1 {
         background-size: 20%;
     }
-
+    .person3 {
+        background-size: 20%;
+    }
+    .person4 {
+        background-size: 20%;
+        margin: 5%;
+    }
     .person1-details {
         padding: 0;
         text-align: center;

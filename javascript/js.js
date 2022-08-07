@@ -162,3 +162,84 @@ function contactText() {
 }
 
 
+
+
+// --------------magicpen-------------------
+
+function aboutText1() {
+  const main = document.getElementById("demo");
+  const externalHTML = `<p> 
+  Magic Pen is an individual article writing competition, from the above topics choose any one topic, write an article on it and submit.
+                The Competition is open for all the students currently pursuing their U.G.<br>All the participants submit their article at google form linked below.<br>Link: <br>The Article needs to be submitted in doc.x form.
+                Whole article should be in 500 words (i.e 1 page with font=Time New Roman, Font size 12)
+                File Name Format:<br>MagicPen_yourname_collegeName. <br>
+                Write then cut it back, pare it down, winnow, chop, hack, prune, and trim, remove any superfluous word, compress compress….
+Write your draft with your heart. Rewrite with your head.
+Get it down. Take chances. It may be bad, but it’s the only way you can do anything really good.
+Come and express your view with us in this mini show.
+  
+  </p>`;
+  main.innerHTML = externalHTML;
+}
+function timelineText1() {
+  const main = document.getElementById("demo");
+  const externalHTML = `<p><strong>𝙍𝙚𝙜𝙞𝙨𝙩𝙧𝙖𝙩𝙞𝙤𝙣 𝙙𝙚𝙩𝙖𝙞𝙡𝙨:<br></strong>
+
+  Submissions starts from 30th August .<br>
+  Last date for submission is 2nd September.<br>
+  
+  The Competition is open for all the students currently pursuing their Poly/U.G.</p>`;
+  main.innerHTML = externalHTML;
+}
+function instruction() {
+  const main = document.getElementById("demo");
+  const externalHTML = `<p>  The Article needs to be submitted in doc.x form/pdf.
+  <br>
+                Whole article should be in 500 words ( 1 pg with font size 12 ) 
+                <br>     
+         <strong >
+          𝗧𝗼𝗽𝗶𝗰𝘀:<br>
+          𝗧𝗲𝗰𝗵𝗻𝗶𝗰𝗮𝗹
+         </strong>       
+                <br>
+                1.Virtual reality<br>
+                2.Internet Security<br>
+                
+          <strong >
+            𝗡𝗼𝗻𝘁𝗲𝗰𝗵𝗻𝗶𝗰𝗮𝗹<br>
+          </strong>     
+                
+                1.Travel stories <br>
+                2.Your vision towards world<br>
+                
+    <strong>
+      𝗠𝗼𝗺𝗲𝗻𝘁𝗼𝘀 𝘄𝗶𝗹𝗹 𝗯𝗲 𝗴𝗶𝘃𝗲𝗻 𝘁𝗼 𝘁𝗵𝗲 𝘄𝗶𝗻𝗻𝗲𝗿𝘀 𝗼𝗳 𝗯𝗼𝘁𝗵 𝘁𝗵𝗲 𝗱𝗼𝗺𝗮𝗶𝗻𝘀. ( 𝗙𝗶𝗿𝘀𝘁 𝗮𝗻𝗱 𝘀𝗲𝗰𝗼𝗻𝗱 𝘄𝗶𝗻𝗻𝗲𝗿 ) <br>
+                
+      𝗘𝗰𝗲𝗿𝘁𝗶𝗳𝗶𝗰𝗮𝘁𝗲𝘀 𝘁𝗼 𝗮𝗹𝗹<br>
+    </strong>            
+                
+                
+                Happy writing and All the best for impressing everyone with your writing.</p>`;
+  main.innerHTML = externalHTML;
+}
+function contactText1() {
+  const main = document.getElementById("demo");
+  const externalHTML = `
+    <div class="first">
+                <div class="person3"></div>
+                <div class="person1-details">
+                  <p>ASHWATI RAJANKAR</p>
+                  <p>8888598436</p>
+                </div>
+              </div>
+
+              <div class="second">
+                <div class="person4"></div>
+                <div class="person2-details">
+                  <p>TEJASWINI PADOLE</p>
+                  <p> 9307348591</p>
+                </div>
+              </div>`;
+  main.innerHTML = externalHTML;
+}
+
