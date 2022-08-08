@@ -111,7 +111,7 @@
         left: -100%;
         top: 0;
         padding: 20px;
-        background-color: rgba(24, 1, 24, 0.849);
+        background-color: rgba(34, 34, 34, 0.849);
         z-index: 100;
         transition: all 0.4s ease;
     }
@@ -180,6 +180,7 @@
 
     .img-fluid1 {
         margin-top: 80%;
+        zoom: 140%;
     }
 
     #count {
@@ -201,17 +202,17 @@
     
 
     body {
-        background-image: url(/img/shubham-dhage-mjl0yIdSi18-unsplash.jpg);
+        background-image: url(/andrew-kliatskyi-AA5tS9VG1oI-unsplash.jpg);
     }
 
     .footer-basic {
-        background-color: #4158D0;
-        background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+        background-color: rgb(34, 34, 34);
+        color: white;
     }
     .team{
         background-image: none;
         border-radius: 2%;
-        box-shadow: 5px 5px 5px 5px black;
+        box-shadow: 5px 5px 5px 5px rgb(34, 34, 34);
         margin-left: 3%;
         margin-right: 3%;
         margin-bottom: 10%;
@@ -221,6 +222,19 @@
     }
     .countdown h1{
         font-family: 'Teko', sans-serif;
+    }
+    .event h,.schedule,.about,.team h1,.event-name p,.container-text-center col h1{
+        color: white;
+    }
+    .profile .profile-img{
+        filter: grayscale(0);
+    }
+    .nav-bar button,.all-button .register{
+        color: white;
+        background-color: #29323c;
+    }
+    .main-body p{
+        color: white;
     }
 }
 
@@ -293,7 +307,7 @@
 
 @media screen and (max-width: 550px) {
     .register:hover{
-        background-color: rgb(51, 18, 59);
+        background-color: rgb(34, 34, 34);
       
       }
       .register p:hover{
@@ -344,7 +358,7 @@
         font-size: 1.7rem;
     }
     .nav-bar button:hover{
-        background-color: #4e204b;
+        background-color: #343434;
         color: white;
     }
 
