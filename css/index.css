@@ -631,10 +631,9 @@ color: rgb(231, 211, 241);
   margin-top:15px;
   text-align:center;
   font-size:13px;
-  color:black;
+  color:rgb(255, 255, 255);
   margin-bottom:0;
 }
-
 
 
 
@@ -671,6 +670,20 @@ main{
 }
 .event-img{
   background-image: url("/img/smack.png") ;
+
+  background-size: 69%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 374px;
+  width: 338px;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.event-img1{
+  background-image: url("/img/MAGIC.png") ;
 
   background-size: 69%;
   background-position: center;

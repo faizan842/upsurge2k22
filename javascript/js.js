@@ -173,10 +173,7 @@ function aboutText1() {
                 The Competition is open for all the students currently pursuing their U.G.<br>All the participants submit their article at google form linked below.<br>Link: <br>The Article needs to be submitted in doc.x form.
                 Whole article should be in 500 words (i.e 1 page with font=Time New Roman, Font size 12)
                 File Name Format:<br>MagicPen_yourname_collegeName. <br>
-                Write then cut it back, pare it down, winnow, chop, hack, prune, and trim, remove any superfluous word, compress compress….
-Write your draft with your heart. Rewrite with your head.
-Get it down. Take chances. It may be bad, but it’s the only way you can do anything really good.
-Come and express your view with us in this mini show.
+                
   
   </p>`;
   main.innerHTML = externalHTML;
