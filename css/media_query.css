@@ -17,7 +17,7 @@
     }
 
     li span {
-        font-size: calc(3.375rem * var(--smaller));
+        font-family: 'Teko', sans-serif;
     }
 
     .countdown {
@@ -179,8 +179,8 @@
     }
 
     .img-fluid1 {
-        margin-top: 80%;
-        zoom: 140%;
+        margin-top: 0%;
+        /* zoom: 140%; */
     }
 
     #count {
@@ -284,6 +284,11 @@
 }
 
 @media screen and (max-width: 690px) {
+    .footer-basic .copyright {
+
+        color:rgb(255, 255, 255);
+
+      }
     .left-nav {
         width: 40vw;
     }

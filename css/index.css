@@ -71,7 +71,7 @@ body.dark nav {
 nav .nav-bar {
   position: relative;
   height: 95%;
-  max-width: 62.5rem;
+  /* max-width: 62.5rem; */
   width: 100%;
   margin: 0 auto;
   padding: -1 1.875rem;
@@ -81,8 +81,8 @@ nav .nav-bar {
   margin-right: 85%;
 }
 nav .nav-bar .logo img{
-  width: 10rem;
-  margin-top: 20%;
+  width: 13rem;
+  /* margin-top: 20%; */
 
 }
 
@@ -104,13 +104,16 @@ nav .nav-bar .sidebarOpen {
 }
 
 .nav-bar .nav-links li {
-  margin: 0 0.3125rem;
+  margin: 0.7rem;
   list-style: none;
+}
+.nav-links{
+  margin-bottom: 0rem;
 }
 
 .nav-links li a {
   position: relative;
-  font-size: 1.7rem;
+  font-size: 1.85rem;
   font-weight: 400;
   color: rgb(216, 202, 227);
   text-decoration: none;
@@ -165,7 +168,7 @@ nav .nav-bar .sidebarOpen {
   margin-top: 17%;
   margin-left: 5%;
 
-  color: rgb(247, 238, 238);
+  color: rgb(196, 74, 172);
 letter-spacing: 0.5rem;
 font-family: 'Monoton', cursive;
   font-weight: 900;
@@ -349,7 +352,7 @@ li span {
 }
 .event h{
   font-size: 6.27rem;
-  margin: 10%;
+  /* margin: 10%; */
   font-family: 'Teko', sans-serif;
   letter-spacing: 0.5rem;
   color: rgb(216, 202, 227);
@@ -537,7 +540,7 @@ color: rgb(231, 211, 241);
 .team h1{
  font-size: 4rem;
  text-align: center;
- color: rgba(255, 255, 0, 0.701);
+ color: rgb(231, 211, 241);
  margin-bottom: 10%;
  font-family: 'Teko', sans-serif;
  letter-spacing: 0.5rem;
@@ -631,7 +634,7 @@ color: rgb(231, 211, 241);
   margin-top:15px;
   text-align:center;
   font-size:13px;
-  color:rgb(255, 255, 255);
+  color:rgb(0, 0, 0);
   margin-bottom:0;
 }
 
@@ -1051,7 +1054,7 @@ color: white;
   background-image: url(/img/pic\ -\ Ashwati\ Rajankar.jpg);
 }
 #a9{
-  background-image: url(/img/sahil.jpeg);
+  background-image: url(/img/sd2.jpeg);
 }
 #a10{
   background-image: url(/img/faizan.jpg);
@@ -1127,6 +1130,23 @@ color: white;
 }
 
 
+
+/* ------------cards=---------------- */
+
+.card1{
+  background-color: transparent !important;
+  color: white !important;
+}
+.card{
+  background-color: black !important;
+}
+.small1 a:hover{
+  text-decoration: none;
+  color: rgb(222, 91, 245);
+}
+.small1 a{
+  color: white;
+}
 
 
 
