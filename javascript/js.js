@@ -132,7 +132,7 @@ function aboutText() {
 }
 function timelineText() {
   const main = document.getElementById("demo");
-  const externalHTML = `<p>5 AUGUST :- Registration starts <br> 12 AUGUST :- Problem statement will be released <br>25 AUGUST :- Registerd teams have to upload there prototype explanetry videos<br>1 SEPETEMBER :- Coming Soon...</p>`;
+  const externalHTML = `<p>5 AUGUST :- Registration starts <br> 12 AUGUST :- Problem statement will be released <br>27 AUGUST :- Registerd teams have to upload there prototype explanetry videos<br>1 SEPETEMBER :- Coming Soon...</p>`;
   main.innerHTML = externalHTML;
 }
 function judgeText() {
