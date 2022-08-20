@@ -106,7 +106,7 @@ function sideScroll(element, direction, speed, distance, step) {
   }, speed);
 }
 
-// const fs = Request("fs");
+const fs = Request("fs");
 function aboutText() {
   const main = document.getElementById("demo");
   const externalHTML = `<p> REGISTRATION DETAILS :
@@ -240,3 +240,60 @@ function contactText1() {
   main.innerHTML = externalHTML;
 }
 
+// --------------tresurer-------------------
+
+function roundText1() {
+  const main = document.getElementById("demo");
+  const externalHTML = `<p>               Roll N Play  <br>
+            
+  The round 1 is a Relay. Every team have to qualify each level to get into final round. To qualify this round, the team needs to have good coordination between them. The round 1 contains 3 levels <br>Level 1 : <br> Puzzle 
+  A quiz/puzzle/crossword will be conducted in this level. This round is based on famous series, books, novel, Bollywood, etc. Three members of each team will play this level. 
+  The top scorer of this level will move to next level. <br>
+  Level 2 : <br> Surprise pop
+  As the name suggests, this level is a surprise for now. The eligible teams from level 1 will be told about this level in detail right before the level. <br>
+  Level 3 : <br> Ball on the Wall
+  In this level, the qualified teams will battle each other to get into the final round i.e. The Treasure Hunt . All members of the team have to balance a ball from point A to point B. 
+                
+  
+  </p>`;
+  main.innerHTML = externalHTML;
+}
+function roundText2() {
+  const main = document.getElementById("demo");
+  const externalHTML = `<p> Treasure Hunt  <br>
+  Only 6 teams will be eligible to play this final round i.e. a treasure hunt round. The teams will hustle among each other to get to the final treasure by following the clues at each step.
+                
+  
+  </p>`;
+  main.innerHTML = externalHTML;
+}
+function timelineround() {
+  const main = document.getElementById("demo");
+  const externalHTML = `<p>  Registrations will be starting from 15th August 2022 <br>
+  ROUND 1 : Roll N Play  (2nd September 2022) <br>
+  Puzzle <br>
+  Surprise pop <br>
+  Ball on the Wall<br>
+  ROUND 2 :Treasure Hunt  (3rd September 2022) <br></p>`;
+  main.innerHTML = externalHTML;
+}
+function contactround() {
+  const main = document.getElementById("demo");
+  const externalHTML = `
+    <div class="first">
+                <div class="person5"></div>
+                <div class="person1-details">
+                  <p>RUTUJA PETHE </p>
+                  <p>9209008567</p>
+                </div>
+              </div>
+
+              <div class="second">
+                <div class="person6"></div>
+                <div class="person2-details">
+                  <p>MEGHA BOKADE </p>
+                  <p>93597 64445  </p>
+                </div>
+              </div>`;
+  main.innerHTML = externalHTML;
+}

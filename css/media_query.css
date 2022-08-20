@@ -394,11 +394,21 @@
         background-size: 20%;
         margin: 5%;
     }
+    .person5 {
+        background-size: 20%;
+        margin: 5%;
+    }
+    .person6{
+        background-size: 20%;
+        margin: 5%;
+    }
     .person1-details {
         padding: 0;
         text-align: center;
     }
-
+    #acm{
+        width: 55%;
+    }
     .second {
         width: 100vw;
         height: 20vh;
