@@ -182,7 +182,7 @@ function timelineText1() {
   const main = document.getElementById("demo");
   const externalHTML = `<p><strong>𝙍𝙚𝙜𝙞𝙨𝙩𝙧𝙖𝙩𝙞𝙤𝙣 𝙙𝙚𝙩𝙖𝙞𝙡𝙨:<br></strong>
 
-  Submissions starts from 30th August .<br>
+  Submissions starts from 25th August .<br>
   Last date for submission is 2nd September.<br>
   
   The Competition is open for all the students currently pursuing their Poly/U.G.</p>`;

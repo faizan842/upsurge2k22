@@ -235,6 +235,7 @@
     }
     .main-body p{
         color: white;
+        text-align: center;
     }
 }
 
@@ -401,6 +402,10 @@
     .person6{
         background-size: 20%;
         margin: 5%;
+    }
+    .person3-details{
+        padding: 5% 0% 0% 0%;
+        margin-left:0%;
     }
     .person1-details {
         padding: 0;

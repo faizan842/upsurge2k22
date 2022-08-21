@@ -694,7 +694,21 @@ main{
   align-items: center;
 }
 .event-img1{
-  background-image: url("/img/MAGIC.png") ;
+  background-image: url("/img/magic.jpg") ;
+
+  background-size: 69%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 374px;
+  width: 338px;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.event-img2{
+  background-image: url("/img/OMNIFIC.png") ;
 
   background-size: 69%;
   background-position: center;
@@ -975,12 +989,13 @@ color: white;
   height: 35%
 }
 .person7{
-  background-image: url("/img/kuch.jpg") ;
+  text-align: center;
+  background-image: url("/img/kush1.jpg") ;
   /* border: 3px solid black; */
   background-size: 30%;
   background-position: center;
   background-repeat: no-repeat;
-  height: 35%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -991,15 +1006,17 @@ color: white;
   margin-left: 15%;
 }
 .person8{
+  
   background-image: url("/img/IMG_1550_1.jpg") ;
   /* border: 3px solid black; */
   background-size: 30%;
   background-position: center;
   background-repeat: no-repeat;
-  height: 35%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 /* --------------------cosmos-------------------- */
 
