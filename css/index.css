@@ -974,6 +974,33 @@ color: white;
   padding: 5% 0% 0% 20%;
   height: 35%
 }
+.person7{
+  background-image: url("/img/kuch.jpg") ;
+  /* border: 3px solid black; */
+  background-size: 30%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.person3-details{
+  padding: 5% 0% 0% 20%;
+  height: 35%;
+  margin-left: 15%;
+}
+.person8{
+  background-image: url("/img/IMG_1550_1.jpg") ;
+  /* border: 3px solid black; */
+  background-size: 30%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* --------------------cosmos-------------------- */
 
 .main-title{
