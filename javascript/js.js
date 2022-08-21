@@ -297,3 +297,43 @@ function contactround() {
               </div>`;
   main.innerHTML = externalHTML;
 }
+
+
+//-------------OMNIFIC------------
+
+function roundText2() {
+  const main = document.getElementById("demo");
+  const externalHTML = `<p>A hands-on session on “UX DESIGN FUNDAMENTALS”.
+  A one-hour workshop where no pre-requisite knowledge is required.It is an in-person event  where you can interact directly with the facilitator.The workshop is completely free of cost
+  .The event is limited to 60 seats only ,so book your seats now.</p>`;
+  main.innerHTML = externalHTML;
+}
+function roundText3() {
+  const main = document.getElementById("demo");
+  const externalHTML = `<p>Date:1st September 2K22<br>
+  Time:12pm-1pm<br>
+  Venue: CSE Department, YCCE</p>`;
+  main.innerHTML = externalHTML;
+}
+function speaker() {
+  const main = document.getElementById("demo");
+  const externalHTML = `<div class="first">
+  <div class="person8"></div>
+  </div>
+</div>
+<p>Henay Lakhwani<br>
+Core Designing Member(GDG Nagpur,Friends of Figma ,Lead Designer(GDSC RCOEM)</p>`;
+  main.innerHTML = externalHTML;
+}
+function contactround2() {
+  const main = document.getElementById("demo");
+  const externalHTML = `
+    <div class="first">
+                <div class="person7"></div>
+                <div class="person3-details">
+                  <p>KUSH THAKARE </p>
+                  <p>9765483393</p>
+                </div>
+              </div>`;
+  main.innerHTML = externalHTML;
+}
