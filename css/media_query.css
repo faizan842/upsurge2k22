@@ -312,6 +312,13 @@
 }
 
 @media screen and (max-width: 550px) {
+    .event-container .event {
+        box-shadow: 0 4px 16px -8px rgba(0, 0, 0, 0.4);
+        display: flex;
+        border-radius: 8px;
+        margin: 32px 0;
+        text-align: center;
+      }
     .register:hover{
         background-color: rgb(34, 34, 34);
       
