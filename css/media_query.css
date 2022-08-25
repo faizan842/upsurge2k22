@@ -263,6 +263,9 @@
         width: 100vw;
         margin: 0;
     }
+    .abc123{
+        height: 52vh;
+    }
 
     .details {
         margin: 0;
