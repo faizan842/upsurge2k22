@@ -291,6 +291,9 @@
 }
 
 @media screen and (max-width: 690px) {
+    #foot1{
+        margin-top: 25%;
+    }
     .footer-basic .copyright {
 
         color:rgb(255, 255, 255);
