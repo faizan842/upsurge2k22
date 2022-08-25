@@ -681,6 +681,20 @@ main{
   margin-right: 30px;
 
 }
+.event-img111{
+  background-image: url("/img/git.jpg") ;
+
+  background-size: 69%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 374px;
+  width: 338px;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .event-img{
   background-image: url("/img/smack.png") ;
 
@@ -928,6 +942,28 @@ color: white;
 }
 .person1{
   background-image: url("/img/sudhanshu\ -\ Cse\ Ycce.jpg") ;
+
+  background-size: 30%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.person991{
+  background-image: url("/img/rinesh.jpeg") ;
+
+  background-size: 30%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.person99{
+  background-image: url("/img/sankalp.jpg") ;
 
   background-size: 30%;
   background-position: center;

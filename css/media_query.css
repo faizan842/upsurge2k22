@@ -170,6 +170,9 @@
 
 /*-------------upsurge & nav image--------------*/
 @media only screen and (max-width: 900px) {
+    #btn{
+        margin-left: 26%;
+      }
     .upsurge {
         display: none;
     }
@@ -264,7 +267,7 @@
         margin: 0;
     }
     .abc123{
-        height: 52vh;
+        height: 62vh;
     }
 
     .details {
@@ -342,6 +345,10 @@
         width: 30vw;
         background-size: 30vw;
     }
+    .event-img111{
+        width: 30vw;
+        background-size: 30vw;
+    }
 
     .details {
         height: 75vh;
@@ -385,6 +392,7 @@
 }
 
 @media screen and (max-width: 500px) {
+
     .contain {
         flex-direction: column;
         justify-content: flex-start;
@@ -393,6 +401,7 @@
     .first {
         width: 100vw;
         height: 20vh;
+        margin-bottom: 2rem;
     }
 
     .person1 {

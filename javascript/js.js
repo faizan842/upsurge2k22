@@ -301,7 +301,7 @@ function contactround() {
 
 //-------------OMNIFIC------------
 
-function roundText2() {
+function roundText5() {
   const main = document.getElementById("demo");
   const externalHTML = `<p>A hands-on session on “UX DESIGN FUNDAMENTALS”.
   A one-hour workshop where no pre-requisite knowledge is required.It is an in-person event  where you can interact directly with the facilitator.The workshop is completely free of cost
@@ -338,25 +338,49 @@ function contactround2() {
   main.innerHTML = externalHTML;
 }
 
+// ----------------github-----------------
 
-document.addEventListener('keydown', function() {
-  if (body.keyCode == 123) {
-    alert("This function has been disabled to prevent you from stealing my code!");
-    return false;
-  } else if (body.ctrlKey && body.shiftKey && body.keyCode == 73) {
-    alert("This function has been disabled to prevent you from stealing my code!");
-    return false;
-  } else if (body.ctrlKey && body.keyCode == 85) {
-    alert("This function has been disabled to prevent you from stealing my code!");
-    return false;
-  }
-}, false);
-
-if (document.addEventListener) {
-  document.addEventListener('contextmenu', function(e) {
-    alert("This function has been disabled to prevent you from stealing my code!");
-    e.preventDefault();
-  }, false);
-}else{
-  pass;
+function aboutText10() {
+  const main = document.getElementById("demo");
+  const externalHTML = `<p> ✨UPSURGE 2K22✨ <br>
+  > in association with COSMOS & ACM Invites you to witness and be a part of this Amazing Technical Event guided by our speaker Sankalp Kotewar - currently working as a SDE-II at GitHub. <br>
+  You'll get to know about :
+  Repositories, Branches, Pull requests, Commits, World of open source, GitHub features, GitHub Students pack, Real world examples of wonders people are doing on GitHub and in the open source community, and ways/tips on how one can contribute/learn using GitHub & Many More <br> <br> <br>
+  Certificates will be provided to all the registered students 🏆 <br>
+  Also the registered participants will be provided Swags from Github 🎒🛍️</p>`;
+  main.innerHTML = externalHTML;
 }
+function roundText11() {
+  const main = document.getElementById("demo");
+  const externalHTML = `<p>💫 The GitHub Seminar💫 <br>
+  Date 🗒️:- 3rd September <br>
+  Time ⏱️:- 12:00 pm <br>
+  Venue   :- CCC Auditorium
+  </p>`;
+  main.innerHTML = externalHTML;
+}
+function speaker11() {
+  const main = document.getElementById("demo");
+  const externalHTML = `    <div class="first">
+  <div class="person99"></div>
+  <div class="person3-details">
+    <p>SANKALP KOTEWAR</p>
+    <p>
+    Software Development Engineer II</p>
+  </div>
+</div>`;
+  main.innerHTML = externalHTML;
+}
+function contactText111() {
+  const main = document.getElementById("demo");
+  const externalHTML = `
+    <div class="first">
+                <div class="person991"></div>
+                <div class="person3-details">
+                  <p>RINESH PATIL</p>
+                  <p>7020001453</p>
+                </div>
+              </div>`;
+  main.innerHTML = externalHTML;
+}
+
