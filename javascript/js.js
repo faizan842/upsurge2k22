@@ -244,7 +244,7 @@ function contactText1() {
 
 function roundText1() {
   const main = document.getElementById("demo");
-  const externalHTML = `<p>               Roll N Play  <br>
+  const externalHTML = `<p>       Roll N Play  <br>
             
   The round 1 is a Relay. Every team have to qualify each level to get into final round. To qualify this round, the team needs to have good coordination between them. The round 1 contains 3 levels <br>Level 1 : <br> Puzzle 
   A quiz/puzzle/crossword will be conducted in this level. This round is based on famous series, books, novel, Bollywood, etc. Three members of each team will play this level. 
@@ -261,7 +261,7 @@ function roundText1() {
 function roundText2() {
   const main = document.getElementById("demo");
   const externalHTML = `<p> Treasure Hunt  <br>
-  Only 6 teams will be eligible to play this final round i.e. a treasure hunt round. The teams will hustle among each other to get to the final treasure by following the clues at each step.
+  Only 3 teams will be eligible to play this final round i.e. a treasure hunt round. The teams will hustle among each other to get to the final treasure by following the clues at each step.
                 
   
   </p>`;
@@ -269,7 +269,7 @@ function roundText2() {
 }
 function timelineround() {
   const main = document.getElementById("demo");
-  const externalHTML = `<p>  Registrations will be starting from 15th August 2022 <br>
+  const externalHTML = `<p>  Registrations will be starting from 25th August 2022 <br>
   ROUND 1 : Roll N Play  (2nd September 2022) <br>
   Puzzle <br>
   Surprise pop <br>
