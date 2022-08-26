@@ -304,7 +304,7 @@ function contactround() {
 function roundText5() {
   const main = document.getElementById("demo");
   const externalHTML = `<p>A hands-on session on <br> “UI/UX DESIGN”.
-  A one-hour workshop where no pre-requisite knowledge is required.It is an in-person event  where you can interact directly with the facilitator.The workshop is completely free of cost
+  A two-hour workshop where no pre-requisite knowledge is required.It is an in-person event  where you can interact directly with the facilitator.The workshop is completely free of cost
   .The event is limited to 60 seats only ,so book your seats now.</p>`;
   main.innerHTML = externalHTML;
 }
