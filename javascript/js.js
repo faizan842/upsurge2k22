@@ -55,7 +55,7 @@ body.addEventListener("click", e => {
   }
   //end
 
-  const countDown = new Date(birthday).getTime(),
+  const countDown = new Date(birthday*0).getTime(),
     x = setInterval(function () {
 
       const now = new Date().getTime(),
